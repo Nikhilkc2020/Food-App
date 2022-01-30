@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import admin as ad
 
 class User:
@@ -88,10 +82,3 @@ Nikhil = User("Nikhil K C", "7829864973", "nikhilkc1998@gmail.com", "Raghavendra
 Hardin = User("Hardin Roy", "7645678978", "hardin@gmail.com", "Nagarbhavi", "hardin@123")
 Nikhil.see_profile()
 Hardin.see_profile()
-
-
-# In[ ]:
-
-
-
-

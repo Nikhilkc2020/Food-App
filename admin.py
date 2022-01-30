@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 admin_keys = {"Nikhil": "nikhil@1998"}
 
 menu = {1: {'Food Name': 'Masala Dosa', 'Food ID': 1, 'Price': 70, 'Discount': 2, 'Stock': 8},
@@ -52,10 +46,3 @@ def remove_food_item():
     menu.pop(x)
     print("The food item you entered is removed successfully ")
     return menu
-
-
-# In[ ]:
-
-
-
-
